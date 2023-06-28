@@ -1,0 +1,45 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:'Poppins','san-serif'
+}
+#whole-page{
+    background-color:  #1d2529;
+    height:100rem;
+}
+#side-nav{
+    
+    color:#ffffff;
+}
+#logo-div{
+    width:90%;
+    text-align: left;
+    padding:1.5em 0em;
+    border-bottom: solid 1px #7c8488;
+}
+#logo-text{
+    color:#7c8488;
+    font-size: larger;
+}
+#menu-items{
+    margin-bottom: solid 1px #7c8488;
+}
+#menu-items>ul{
+    list-style-type: none;
+}
+#menu-items>ul>li{
+     margin:2.5em 0em;
+}
+#menu-items>ul>li>a{
+   
+    color:#7c8488;
+    margin: 0 1em;
+}
+#middle-div{
+    background-color: #ffffff;
+    color:#000000;
+    border-radius: 8px;
+    height: 100em;
+}
+
+
