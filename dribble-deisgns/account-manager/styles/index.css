@@ -1,67 +1,112 @@
-*{
-    margin:0px;
-    padding:0px;
+* {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-    font-family:'Poppins','san-serif'
+    font-family: 'Poppins', 'san-serif'
 }
-#whole-page{
-    background-color:  #1d2529;
-    height:100vh;
+
+#whole-page {
+    background-color: #1d2529;
+    height: 100vh;
 }
-#side-nav{
-    
-    color:#ffffff;
+
+#side-nav {
+
+    color: #ffffff;
 }
-#logo-div{
-    width:90%;
+
+#logo-div {
+    width: 90%;
     text-align: left;
-    padding:1.5em 0em;
+    padding: 1.5em 0em;
     border-bottom: solid 1px #7c8488;
 }
-#logo-text{
-    color:#7c8488;
+
+#logo-text {
+    color: #7c8488;
     font-size: larger;
 }
-#menu-items{
+
+#menu-items {
     /* padding: 2em 0em; */
     border-bottom: solid 1px #7c8488;
 }
-#side-nav ul{
+
+#side-nav ul {
     list-style-type: none;
 }
-#menu-items>ul>li{
-     margin:2.5em 0em;
+
+#menu-items>ul>li {
+    margin: 2.5em 0em;
 }
-#side-nav a{
-   
-    color:#7c8488;
+
+#side-nav a {
+
+    color: #7c8488;
 
 }
-#side-nav a:hover{
-    color:#d9ef4d;
+
+#side-nav a:hover {
+    color: #d9ef4d;
     text-decoration: none;
 }
-#side-nav a:active{
-    color:#d9ef4d;
+
+#side-nav a:active {
+    color: #d9ef4d;
     text-decoration: none;
 }
-#middle-div{
+
+#middle-div {
     background-color: #ffffff;
-    color:#000000;
+    color: #000000;
     padding: 1em 1em;
 
 }
-#top-middle>h3>span{
-    color:#b0c2c1
-}
-.score-divs{
-    border: solid 1px #d9ef4d;
-    
+
+#top-middle>h3>span {
+    color: #b0c2c1
 }
 
-#side-bottom-div{
-    padding: 2em 0em; 
+.score-divs {
+    border: solid 1px #d9ef4d;
+
 }
-#current-user{
-    margin-top:10rem;
+
+#side-bottom-div {
+    padding: 2em 0em;
+}
+
+#current-user {
+    margin-top: 10rem;
+}
+
+.score-divs {
+    color: #83941e;
+}
+#score{
+    color:#0d1913
+}
+.score-divs:hover{
+    background-color: #dbf04e;
+}
+.score-divs>div>span {
+    font-size: .6rem
+}
+
+.bottom-score {
+    color: #b0c2c1;
+    width:100%;
+}
+#scorername{
+  color:#b0c2c1;  
+}
+#icon{
+    color:#b0c2c1;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    border: 2px solid #b0c2c1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
