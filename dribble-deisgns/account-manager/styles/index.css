@@ -2,22 +2,34 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Poppins', 'san-serif'
-}
+    font-family: 'Open Sans', sans-serif;
+  }
 
-#whole-page {
+  #side-nav {
+    position: fixed;
     background-color: #1d2529;
     height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow-y: auto;
+    color:#ffffff;
+  }
+  
+  #rest-of-page {
+    margin-left: 16.667%; /* Width of the sidebar (2/12 columns in Bootstrap grid) */
+    height:100vh;
 }
-
-#side-nav {
-
-    color: #ffffff;
-}
+  
+  #whole-page {
+    background-color: #1d2529;
+    height:100vh
+  }
 
 #logo-div {
     width: 90%;
     text-align: left;
+    height:10vh;
     padding: 1.5em 0em;
     border-bottom: solid 1px #7c8488;
 }
@@ -29,6 +41,7 @@
 
 #menu-items {
     /* padding: 2em 0em; */
+    height:45vh;
     border-bottom: solid 1px #7c8488;
 }
 
@@ -58,31 +71,25 @@
 
 #middle-div {
     background-color: #ffffff;
-    color: #000000;
+    color: #3f4444;
     padding: 1em 1em;
 
 }
 
-#top-middle>h3>span {
+#top-middle>h5>span {
     color: #b0c2c1
 }
 
 .score-divs {
-    border: solid 1px #d9ef4d;
-
+    border: solid 1px #b0c2c1;
+    color: #83941e;
 }
 
 #side-bottom-div {
-    padding: 2em 0em;
+    height: 40vh;
 }
 
-#current-user {
-    margin-top: 10rem;
-}
 
-.score-divs {
-    color: #83941e;
-}
 #score{
     color:#0d1913
 }
@@ -110,3 +117,45 @@
     justify-content: center;
     align-items: center;
 }
+#new-opportunities a{
+    color: #3f4444;
+}
+.opportunities-divs{
+    border: solid 1px #b0c2c1;
+    color:#b0c2c1;
+    font-size:.8em;
+}
+.opportunities-divs:hover{
+    background-color: #b0c2c1;
+    color:#3f4444;
+   
+}
+.opportunities-divs:hover p{
+    background-color: #3f4444;
+    color:#b0c2c1;
+}
+.opportunities-divs span{
+    color:#3f4444;
+}
+.opportunities-divs p{
+    background-color:#b0c2c1 ;
+    width:9em;
+    font-size:.8em;
+    color:#3f4444;
+
+}
+.opportunities-divs h2{
+    color: #3f4444;
+}
+#invoices-div a{
+    color: #3f4444;
+}
+.invoice{
+    border: 1px solid #b0c2c1;
+    /* color:#3f4444; */
+}
+.invoice-owner>a{
+    color:#b0c2c1 !important; 
+    font-size: .7em;
+}
+

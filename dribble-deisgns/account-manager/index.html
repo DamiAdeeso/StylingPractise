@@ -8,6 +8,10 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
   <script src="https://kit.fontawesome.com/cf21511ccf.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="./styles/index.css" />
   <title>Document</title>
 </head>
@@ -19,7 +23,7 @@
         <div id="side-nav" class="col-2">
           <div id="logo-div" class="d-flex ml-1">
             <div id="logo-img" class="mr-2"><i class="fa-solid fa-lemon" style="color:#d9ef4d"></i></div>
-            <div id="logo-text " class="d-none d-md-inline">Coli.io</div>
+            <div id="logo-text " class="d-none d-xl-inline d-md-inline">Coli.io</div>
           </div>
           <div id="menu-items" class="d-flex pl-1">
             <ul>
@@ -51,37 +55,40 @@
               </li>
             </ul>
           </div>
-          <div id="side-bottom-div" class="d-sm-flex pl-1">
+          <div id="side-bottom-div" class="pt-5 pl-1 d-flex flex-column">
             <a href="#" class="d-flex align-items-center">
               <i class="fa-solid fa-gear mr-3"></i>
               <span class="d-none d-md-inline">Settings</span>
             </a>
+            
+            <div id="current-user" class="mt-auto">
+              <a href="#">
+                <div class="d-flex align-items-center">
+                  <img src="./assets/user4.jpg" alt="profile-pic" class="rounded-circle" height="30" width="30">
+                  <div class="ml-2 d-none d-md-inline text-wrap">Amira Johnson</div>
+                </div>
+              </a>
+            </div>
           </div>
-          <div id="current-user" class="d-sm-flex pl-1">
-            <a href=#>
-              <img src="./assets/user4.jpg" alt="profile-pic" class="rounded-circle " height="30" width="30">
-              <div class="d-none d-md-inline text-wrap ">Amira Johnson</div>
 
-          </div>
           </a>
-
         </div>
-        <div class="col-10">
+        <div id="rest-of-page" class="col-10">
           <div class="row">
             <div id="middle-div" class="col-lg-8 rounded">
-              <div id="top-middle" class="d-flex align-items-center">
-                <h3>Welcome <span>Alex</span></h3>
-                <div id="search-notifications" class="ml-auto">
-                  <i class="fa-solid fa-search mr-2 " style="color:#7c8488"></i>
-                  <i class="fa-regular fa-bell mr-2" style="color:#7c8488"></i>
-                </div>
+              <div id="top-middle" class="d-flex  mt-2 align-items-center">
+                <h5 class="mb-3">Welcome <span>Alex</span></h3>
+                  <div id="search-notifications" class="ml-auto">
+                    <i class="fa-solid fa-search mr-2 " style="color:#7c8488"></i>
+                    <i class="fa-regular fa-bell mr-2" style="color:#7c8488"></i>
+                  </div>
               </div>
 
               <div class="row gx-5">
                 <div class=" col-xs-12 col-md mx-3 my-1 rounded p-2 score-divs">
                   <div class="d-flex">
                     <h1 id="score" class="font-weight-bold">7,6</h1>
-                    <span class="font-weight-light ml-1">Score</span>
+                    <span class="font-weight-bold ml-1">Score</span>
                     <i class="fa-solid fa-fire fa-lg mt-4 ml-auto mr-2" style="color:#0d1913"></i>
                   </div>
 
@@ -103,8 +110,8 @@
                 <div class="col-xs-12 col-md mx-3 my-1 rounded p-2 score-divs">
                   <div class="d-flex">
                     <h1 id="score" class="font-weight-bold">8,9</h1>
-                    <span class="font-weight-light ml-1">Score</span>
-                    <i class="fa-solid fa-circle fa-lg mt-4 ml-auto mr-2" style ="color:#bfcfd1"></i>
+                    <span class="font-weight-bold ml-1">Score</span>
+                    <i class="fa-solid fa-circle fa-lg mt-4 ml-auto mr-2" style="color:#bfcfd1"></i>
                   </div>
 
                   <h6 class="mt-5">Ownerate Ltd</h6>
@@ -118,6 +125,101 @@
                     <a href="#" id="icon" class="ml-auto mr-1 ">
                       <i class="fa-solid fa-angle-down"></i>
                     </a>
+
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div id="new-opportunities" class="align-items-center mb-4 mt-4">
+                  <div class="d-flex">
+                    <h5>New Opportunities</h3>
+                      <a href=# class=" view-all ml-auto">
+                        View all
+                      </a>
+                  </div>
+
+                  <div class="row  p-2">
+                    <div class="col-8 col-md-8 col-lg col-xl mx-1 my-1 p-2 rounded opportunities-divs">
+                      <div class="d-flex">
+                        <span>Marta Brayker</span>
+                        <i class="fa-solid fa-ellipsis ml-auto mr-1 mt-1"></i>
+                      </div>
+                      +123 45 6789
+                      <p class="p-1 mt-2 rounded">
+                        Beaver Corn LTD
+                      </p>
+                      <h2 class="mt-4">$37,5K</h2>
+                    </div>
+                    <div class="col-8 col-md-8 col-lg col-xl mx-1 my-1 p-2 rounded opportunities-divs">
+                      <div class="d-flex">
+                        <span>Marta Brayker</span>
+                        <i class="fa-solid fa-ellipsis ml-auto mr-1 mt-1"></i>
+                      </div>
+                      +123 45 6789
+                      <p class="p-1 mt-2 rounded">
+                        Beaver Corn LTD
+                      </p>
+                      <h2 class="mt-4">$37,5K</h2>
+                    </div>
+                    <div class="col-8 col-md-8 col-lg col-xl mx-1 my-1 p-2 rounded opportunities-divs">
+                      <div class="d-flex">
+                        <span>Marta Brayker</span>
+                        <i class="fa-solid fa-ellipsis ml-auto mr-1 mt-1"></i>
+                      </div>
+                      +123 45 6789
+                      <p class="p-1 mt-2 rounded">
+                        Beaver Corn LTD
+                      </p>
+                      <h2 class="mt-4">$37,5K</h2>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div id="invoices-div">
+                <div class="d-flex mt-4 mb-4">
+                  <h5>Recent Invoices</h5>
+                  <a href=# class=" view-all ml-auto">
+                    View all
+                  </a>
+                </div>
+                <div>
+                  <div class="invoice d-flex p-2 rounded">
+                    <div>
+                      <h6>Ownerate LTD</h6>
+                      <div class="invoice-owner"><a href="#">
+                          <img src="./assets/user4.jpg" alt="profile-pic" class="rounded-circle mr-1" height="20"
+                            width="20">
+                          <span>Alexa Henry<span class="ml-1">+123456789</span></span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="ml-auto d-flex ">
+                      <h3>$1,44K</h2>
+                        <a href="#" id="icon" class="ml-2 mt-2">
+                          <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                    </div>
+
+
+                  </div>
+                  <div class="invoice d-flex mt-2 mt-3 p-2 rounded">
+                    <div>
+                      <h6>Ownerate LTD</h6>
+                      <div class="invoice-owner"><a href="#">
+                          <img src="./assets/user4.jpg" alt="profile-pic" class="rounded-circle mr-1" height="20"
+                            width="20">
+                          <span>Alexa Henry<span class="ml-1">+123456789</span></span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="ml-auto d-flex ">
+                      <h3>$1,44K</h2>
+                        <a href="#" id="icon" class="ml-2 mt-2">
+                          <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                    </div>
+
 
                   </div>
                 </div>
