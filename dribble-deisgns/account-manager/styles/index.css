@@ -158,4 +158,26 @@
     color:#b0c2c1 !important; 
     font-size: .7em;
 }
+#far-right-div{
+    color:#ffffff;
+    padding:2em;
+}
 
+#total-leads{
+    background-color: #bfcfd1;
+    width:10em;
+    height:12em;
+    color:#1d2529;
+}
+#total-leads p{
+    color:#7c8488;
+    font-size:.6em;
+}
+#total-leads h1{
+    margin-bottom:0;
+    margin-top: 0;
+}
+#total-leads span{
+    font-size: 2em;
+    font-weight: bolder;
+}
