@@ -165,11 +165,10 @@
 
 #total-leads{
     background-color: #bfcfd1;
-    width:10em;
     height:12em;
     color:#1d2529;
 }
-#total-leads p{
+.leads-p{
     color:#7c8488;
     font-size:.6em;
 }
@@ -177,7 +176,17 @@
     margin-bottom:0;
     margin-top: 0;
 }
-#total-leads span{
+.leads-bar{
     font-size: 2em;
     font-weight: bolder;
+}
+#total-leads2{
+    background-color: #d8ee4c;
+    height:9em;
+    color:#1d2529;
+}
+#review{
+    background-color: #ffffff;
+    color:#000000;
+    height:2.4em
 }
