@@ -13,7 +13,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="./styles/index.css" />
-  <title>Document</title>
+  <title>Coli.io</title>
+  <link rel = "icon" href = 
+"https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png" 
+        type = "image/x-icon">
 </head>
 
 <body>
@@ -236,14 +239,59 @@
               </div>
             </div>
             <div id="far-right-div" class="col-lg-4 ">
-              <div id="top-rightdiv" class="d-flex align-items-center">
+              <div id="top-rightdiv" class="d-flex mb-2 align-items-center">
                 <h5>
                   Monthly Profits
                 </h5>
                 <i class="fa-solid fa-angle-right ml-auto"></i>
               </div>
+              <div class="d-flex flex-wrap" id = "days-of-week">
+                <div class ="ml-2 mr-1">
+                  <div class =" mon-div rounded">
+
+                  </div>
+                  <p class= "p-day font-weight-bold text-center">Mon</p>
+                </div>
+                <div class ="mx-1">
+                  <div  class ="tue-div rounded">
+
+                  </div>
+                  <p class="p-day font-weight-bold text-center">Tue</p>
+                </div>
+                <div class ="mx-1">
+                  <div  class ="wed-div rounded">
+
+                  </div>
+                  <p  class=" p-day font-weight-bold text-center">Wed</p>
+                </div>
+                <div class ="mx-1">
+                  <div  class =" thu-div rounded">
+
+                  </div>
+                  <p  class="p-day font-weight-bold text-center">Thu</p>
+                </div>
+                <div class ="mx-1">
+                  <div class =" fri-div rounded">
+
+                  </div>
+                  <p class=" p-day font-weight-bold text-center">Fri</p>
+                </div>
+                <div class ="mx-1">
+                  <div  class ="  sat-div rounded">
+
+                  </div>
+                  <p  class=" p-day font-weight-bold text-center">Sat</p>
+                </div>
+                <div class ="mx-1">
+                  <div class =" sun-div rounded">
+
+                  </div>
+                  <p class=" p-day font-weight-bold text-center">Sun</p>
+                </div>
+                
+              </div>
               <div class="row" id="leads">
-                <div class="Col p-2 rounded " id="total-leads">
+                <div class="col col-md-6 p-2  rounded " id="total-leads">
                   <div class ="d-flex">
                     <h6 class="">Total Leads</h6>
                     <i class="fa-solid fa-ellipsis ml-auto mr-2"></i>
@@ -254,7 +302,7 @@
                     <p class ="leads-p">Lorem ipsum dolor sit r </p>
                   </div>
                 </div>
-                  <div class ="offset-1 Col" >
+                  <div class ="col col-md-6" >
                     <div class = " p-2 rounded" id ="total-leads2">
                       <div class ="d-flex">
                         <h6 class="">Total Leads</h6>
@@ -266,11 +314,87 @@
                       </div>
                     </div>
                     
-                    <div class = "rounded pt-4 p-3 d-flex align-items-center mt-2" id = "review">
-                      <h4>Review</h4>
-                      <i class="fa-solid fa-arrow-right fa-xl ml-auto"></i>
+                    <div class = "rounded px-1 d-flex text-left align-items-center mt-2" id = "review">
+                      <h6>Review</h6>
+                      <i class="fa-solid fa-arrow-right  ml-auto"></i>
                     </div>
                 </div>
+              </div>
+              
+              <div id="top-rightdiv" class="d-flex align-items-center mt-2">
+                <h5>
+                 Analytics
+                </h5>
+                <i class="fa-solid fa-angle-right ml-auto"></i>
+              </div>
+              <div class="mt-2">
+                <select name="status" id="status" class="col-12 p-2 rounded">
+                  <option value="qualified">Qualified</option>
+                  <option value="unqualified">Unqualified</option>
+                </select>
+                <div id="analytics-details">
+                  <div class="d-flex rounded align-items-center">
+                    <h2 class="mt-4">54</h2>
+                    <span id = "analytics-score"class="mt-4 ml-1">Score</span>
+                    <i class="fa-solid fa-fire fa-lg mt-4 ml-auto mr-2" style="color:#d8ee4c"></i>
+                  </div>
+                  <div class="d-flex flex-wrap" id = "days-of-week">
+                    <div class ="ml-2 mr-1">
+                      <div class =" mon-div rounded">
+
+                      </div>
+                      <p class= "p-day font-weight-bold text-center">Mon</p>
+                    </div>
+                    <div class ="mx-1">
+                      <div  class ="tue-div rounded">
+
+                      </div>
+                      <p class="p-day font-weight-bold text-center">Tue</p>
+                    </div>
+                    <div class ="mx-1">
+                      <div  class ="wed-div rounded">
+
+                      </div>
+                      <p  class=" p-day font-weight-bold text-center">Wed</p>
+                    </div>
+                    <div class ="mx-1">
+                      <div  class =" thu-div rounded">
+
+                      </div>
+                      <p  class="p-day font-weight-bold text-center">Thu</p>
+                    </div>
+                    <div class ="mx-1">
+                      <div class =" fri-div rounded">
+
+                      </div>
+                      <p class=" p-day font-weight-bold text-center">Fri</p>
+                    </div>
+                    <div class ="mx-1">
+                      <div  class ="  sat-div rounded">
+
+                      </div>
+                      <p  class=" p-day font-weight-bold text-center">Sat</p>
+                    </div>
+                    <div class ="mx-1">
+                      <div class =" sun-div rounded">
+
+                      </div>
+                      <p class=" p-day font-weight-bold text-center">Sun</p>
+                    </div>
+                    
+                  </div>
+
+                  <div id ="highest-returns">
+                    <ul>
+                      <li class="d-flex align-items-center ml-1"><div class="bullet rounded-circle"></div><span class ="ml-2">Highest result</span> <span class="ml-auto mr-2">Total Leads 70</span></li>
+                      <li class="d-flex align-items-center ml-1"><div class="bullet rounded-circle"></div><span class ="ml-2">Highest result</span> <span class="ml-auto mr-2">Total Leads 70</span></li>
+                    </ul>
+                  </div>
+                </div>
+                
+
+                
+
               </div>
             </div>
 

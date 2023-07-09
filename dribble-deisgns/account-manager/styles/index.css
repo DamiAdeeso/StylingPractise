@@ -161,11 +161,12 @@
 #far-right-div{
     color:#ffffff;
     padding:2em;
+    background-color:#1d2529;
 }
 
 #total-leads{
     background-color: #bfcfd1;
-    height:12em;
+    height:9.6em;
     color:#1d2529;
 }
 .leads-p{
@@ -182,11 +183,89 @@
 }
 #total-leads2{
     background-color: #d8ee4c;
-    height:9em;
+    height:7em;
     color:#1d2529;
 }
 #review{
     background-color: #ffffff;
     color:#000000;
-    height:2.4em
+    height:2em
+}
+#analytics-details{
+    border: solid 2px #7c8488;
+    border-top: 0;
+}
+#status{
+  background-color:#1d2529 ;
+  color: #ffff;
+  font-size: .8em;
+  border: solid 3px #7c8488;
+}
+#analytics-score{
+    font-size:.5em;
+}
+.days{
+    height: 4em;
+    background-color: #7c8488;
+}
+.days-of-week{
+}
+.mon-div{
+    color:#ffffff;
+    background-color: #b0c2c1 !important; 
+    height:3em;
+    width:1.5rem;
+}
+.tue-div{
+    color:#ffffff;
+    background-color: #b0c2c1 !important; 
+    height:3em;
+    width:3.5rem;
+}
+.wed-div{
+    color:#ffffff;
+    background-color: #b0c2c1 !important; 
+    height:3em;
+    width:4.5rem;
+}
+.thu-div{
+    color:#ffffff;
+    background-color: #b0c2c1 !important; 
+    height:3em;
+    width:2.5rem;
+}
+.fri-div{
+    color:#ffffff;
+    background-color: #b0c2c1 !important; 
+    height:3em;
+    width:1.3rem;
+}
+.sat-div{
+    color:#ffffff;
+    background-color: #b0c2c1 !important; 
+    height:3em;
+    width:3.5rem;
+}
+.sun-div{
+    color:#ffffff;
+    background-color: #b0c2c1 !important; 
+    height:3em;
+    width:1.5rem;
+}
+.p-day{
+    font-size: .6em;
+    color:#ffffff;
+    text-align:left;
+}
+#highest-returns{
+    font-size:.8em;
+    color:#d9ef4d;
+}
+#highest-returns span{
+    color:#b0c2c1;
+}
+.bullet{
+    height: .5em;
+    width: .5em;
+    background-color:#d9ef4d;
 }
