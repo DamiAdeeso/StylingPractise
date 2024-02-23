@@ -15,6 +15,16 @@
     overflow-y: auto;
     color:#ffffff;
   }
+  #second-nav {
+    position: fixed;
+    background-color: #1d2529;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow-y: auto;
+    color:#ffffff;
+  }
   
   #rest-of-page {
     margin-left: 16.667%; /* Width of the sidebar (2/12 columns in Bootstrap grid) */
@@ -55,12 +65,12 @@
 
 #side-nav a {
 
-    color: #7c8488;
+    color:var(--side-nav-color,#7c8488);
 
 }
 
 #side-nav a:hover {
-    color: #d9ef4d;
+    --side-nav-color:#d9ef4d;
     text-decoration: none;
 }
 
